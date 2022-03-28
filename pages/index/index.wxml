@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <text>hello?</text>
+
+  <!-- <l-avatar open-data="{{['userAvatarUrl','userNickName']}}" placement="left" /> -->
+
+ <h1>点击开启小程序</h1>
+
+</view>

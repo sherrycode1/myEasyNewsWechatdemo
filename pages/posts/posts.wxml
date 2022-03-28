@@ -1,0 +1,34 @@
+<view>
+  <swiper indicator-dots autoplay circular interval="3000">
+    <swiper-item>
+      <image src="/imgs/1.webp" />
+    </swiper-item>
+    <swiper-item>
+      <image src="/imgs/2.webp" />
+    </swiper-item>
+    <swiper-item>
+      <image src="/imgs/3.webp" />
+    </swiper-item>
+    <swiper-item>
+      <image src="/imgs/4.webp" />
+    </swiper-item>
+  </swiper>
+  <view class="post-container">
+    <view class="post-author-date">
+      <image src="/imgs/1.png" class="post-author"></image>
+      <text class="post-date">Nov 18 2020</text>
+    </view>
+
+    <text class="post-title">{{b}}</text>
+    <image class="post-image" src="/imgs/1.webp"></image>
+    <text class="post-content">用花去形容男子，有人恐怕很难接受。如果世上仅有女人的色彩，缺少男人的争奇斗艳，那这个世界将会黯然失色。每一个男人都是一朵独特的花，男子如花，花开灿烂，潇洒从容，是否馨香，不妨走近，细细欣赏……</text>
+    <view class="post-like">
+      <l-icon name="favor" color="#666" class="post-like-icon"/>
+      <text class="post-like-font">92</text>
+      <l-icon name="eye" color="#666" class="post-like-icon"/>
+      <text class="post-like-font">1024</text>
+
+    </view>
+
+  </view>
+</view>
