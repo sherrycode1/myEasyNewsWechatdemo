@@ -2,8 +2,11 @@
   "pages": [
     "pages/index/index",
     "pages/posts/posts",
-    "pages/details/detail"
+    "pages/post-detail/post-detail"
   ],
+  "usingComponents": {
+    "l-icon":"/miniprogram_npm/lin-ui/icon"
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#C22A1E",

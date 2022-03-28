@@ -23,6 +23,13 @@
           "name": "",
           "pathName": "pages/index/index",
           "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/post-detail/post-detail",
+          "query": "",
           "scene": null,
           "launchMode": "default"
         }

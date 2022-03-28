@@ -1,0 +1,21 @@
+<view class="container">
+  <image class="head-image" src="{{postData.headImgSrc}}"></image>
+  <view class="content">
+    <view class="writer-info">
+      <image class="writer-image" src="{{postData.avatar}}"></image>
+
+      <text class="writer-text">{{postData.author}}</text>
+      <text class="writer-text">发表于</text>
+      <text class="writer-text">{{postData.dateTime}}</text>
+    </view>
+    <text class="title">{{postData.title}}</text>
+    <view class="icons">
+      <view class="circle">
+        <l-icon name='like' class="icon" size="60" />
+        <l-icon name='share' class="icon" size="60" />
+      </view>
+      <view class="horizon"></view>
+    </view>
+    <text class="detail-content">{{postData.detail}}</text>
+  </view>
+</view>

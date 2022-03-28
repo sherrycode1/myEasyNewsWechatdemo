@@ -1,9 +1,13 @@
-<!--index.wxml-->
+<!--pages/index/index.wxml-->
 <view class="container">
-  <text>hello?</text>
-
-  <!-- <l-avatar open-data="{{['userAvatarUrl','userNickName']}}" placement="left" /> -->
-
- <h1>点击开启小程序</h1>
-
+<!-- bind:tap会冒泡，catch:tap不会冒泡 -->
+  <view class="jounery-container">
+    <l-icon name="add" />
+    <l-button 
+    bind:tap="onTap"  
+    icon="default" 
+    icon-size="20" 
+    icon-color="#fff"
+    >点击开启小程序之旅！</l-button>
+  </view>
 </view>
