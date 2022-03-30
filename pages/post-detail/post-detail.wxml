@@ -11,8 +11,9 @@
     <text class="title">{{postData.title}}</text>
     <view class="icons">
       <view class="circle">
-        <l-icon name='like' class="icon" size="60" />
-        <l-icon name='share' class="icon" size="60" />
+      <image class="icon" wx:if="{{!collected}}" src="/images/icon/collection-anti.png" bind:tap="onCollect"></image>
+      <image class="icon" wx:else src="/images/icon/collection.png" bind:tap="onCollect"></image>
+      <image class="icon" src="/images/icon/share-anti.png"></image>
       </view>
       <view class="horizon"></view>
     </view>

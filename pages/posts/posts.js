@@ -22,13 +22,26 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
+  async onLoad(options) {
     // 缓存一直都在，前端数据库
-    wx.setStorageSync('key', 1)
-    const flag = wx.getStorage({
-      flag:"key"
-    })
-    console.log(flag);
+    // 同步
+    //  wx.setStorageSync('key', 3)
+    // const flag = wx.getStorageSync('key')
+    // console.log(flag);
+    // 异步
+    wx.setStorageSync('key', 3)
+    // const flag = await wx.getStorage({
+    //   key:'flag',
+    //   // success(res){
+    //   //   console.log(res.data);
+    //   // }
+    // })
+
+    // flag.then(res => {
+    //   console.log(res);
+    // })
+    // console.log(flag);
+
     this.setData({
       
     })

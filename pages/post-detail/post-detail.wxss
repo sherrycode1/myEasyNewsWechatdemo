@@ -45,8 +45,10 @@
   justify-content: center;
 }
 .icon{
-  z-index: 99;
+  
   padding-right: 20rpx;
+  width: 90rpx;
+  height: 90rpx;
 }
 .circle{
   width: 100%;
@@ -58,6 +60,7 @@
   height: 1px;
   background-color: #e5e5e5;
   position: absolute;
+  z-index: -2;
 }
 
 .detail-content{
